@@ -1,0 +1,1119 @@
+2025-08-15 14:47:48,823 - __main__ - CRITICAL - Fatal error: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode='HTML')` argument instead.
+Traceback (most recent call last):
+  File "C:\Users\fji\Desktop\telegram_ad_bot\bot.py", line 65, in main
+    bot = Bot(token=settings.BOT_TOKEN, parse_mode="HTML")
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 298, in __init__
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode='HTML')` argument instead.
+2025-08-15 14:47:48,826 - __main__ - INFO - Bot shutdown complete
+2025-08-15 14:47:57,896 - __main__ - CRITICAL - Fatal error: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode='HTML')` argument instead.
+Traceback (most recent call last):
+  File "C:\Users\fji\Desktop\telegram_ad_bot\bot.py", line 65, in main
+    bot = Bot(token=settings.BOT_TOKEN, parse_mode="HTML")
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 298, in __init__
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode='HTML')` argument instead.
+2025-08-15 14:47:57,900 - __main__ - INFO - Bot shutdown complete
+2025-08-15 14:51:17,265 - __main__ - CRITICAL - Fatal error: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode='HTML')` argument instead.
+Traceback (most recent call last):
+  File "C:\Users\fji\Desktop\telegram_ad_bot\bot.py", line 65, in main
+    bot = Bot(token=settings.BOT_TOKEN, parse_mode="HTML")
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 298, in __init__
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode='HTML')` argument instead.
+2025-08-15 14:51:17,269 - __main__ - INFO - Bot shutdown complete
+2025-08-15 14:52:28,919 - __main__ - CRITICAL - Fatal error: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode='HTML')` argument instead.
+Traceback (most recent call last):
+  File "C:\Users\fji\Desktop\telegram_ad_bot\bot.py", line 65, in main
+    bot = Bot(token=settings.BOT_TOKEN, parse_mode="HTML")
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\client\bot.py", line 298, in __init__
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: Passing `parse_mode`, `disable_web_page_preview` or `protect_content` to Bot initializer is not supported anymore. These arguments have been removed in 3.7.0 version. Use `default=DefaultBotProperties(parse_mode='HTML')` argument instead.
+2025-08-15 14:52:28,923 - __main__ - INFO - Bot shutdown complete
+2025-08-15 15:04:01,485 - services.error_handlers - INFO - Successfully resolved conflict
+2025-08-15 15:04:01,538 - __main__ - INFO - Starting polling...
+2025-08-15 15:04:01,538 - __main__ - CRITICAL - Fatal error: name 'Command' is not defined
+Traceback (most recent call last):
+  File "C:\Users\fji\Desktop\telegram_ad_bot\bot.py", line 90, in main
+    @dp.message(Command("test"))
+                ^^^^^^^
+NameError: name 'Command' is not defined
+2025-08-15 15:04:01,792 - __main__ - INFO - Bot shutdown complete
+2025-08-15 15:06:27,005 - services.error_handlers - INFO - Successfully resolved conflict
+2025-08-15 15:06:27,057 - __main__ - INFO - Starting polling...
+2025-08-15 15:06:27,165 - __main__ - INFO - Bot started successfully
+2025-08-15 15:06:27,166 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 15:06:27,215 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 15:06:33,158 - aiogram.event - INFO - Update id=379820497 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 15:06:33,159 - aiogram.event - ERROR - Cause exception while process update id=379820497 by bot id=8254096819
+NameError: name 'get_db' is not defined
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\user_handlers.py", line 15, in cmd_start
+    next(get_db()),
+         ^^^^^^
+NameError: name 'get_db' is not defined
+2025-08-15 15:07:03,927 - aiogram.event - INFO - Update id=379820498 is handled. Duration 244 ms by bot id=8254096819
+2025-08-15 15:07:11,315 - aiogram.event - INFO - Update id=379820499 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 15:07:20,935 - aiogram.event - INFO - Update id=379820500 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 15:07:32,495 - aiogram.event - INFO - Update id=379820501 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 15:21:24,209 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-15 15:26:33,272 - services.error_handlers - INFO - Successfully resolved conflict
+2025-08-15 15:26:33,323 - __main__ - INFO - Starting polling...
+2025-08-15 15:26:33,578 - __main__ - INFO - Bot started successfully
+2025-08-15 15:26:33,578 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 15:26:33,630 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 15:26:41,303 - aiogram.event - INFO - Update id=379820504 is handled. Duration 233 ms by bot id=8254096819
+2025-08-15 15:26:42,867 - aiogram.event - INFO - Update id=379820505 is handled. Duration 79 ms by bot id=8254096819
+2025-08-15 15:26:47,487 - aiogram.event - INFO - Update id=379820506 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 15:27:19,427 - aiogram.event - INFO - Update id=379820507 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 15:27:25,282 - aiogram.event - INFO - Update id=379820508 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 15:27:25,282 - aiogram.event - ERROR - Cause exception while process update id=379820508 by bot id=8254096819
+NameError: name 'get_db' is not defined
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\user_handlers.py", line 15, in cmd_start
+    next(get_db()),
+         ^^^^^^
+NameError: name 'get_db' is not defined
+2025-08-15 15:43:58,642 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-15 15:45:07,276 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-15 15:48:38,918 - services.error_handlers - INFO - Successfully resolved conflict
+2025-08-15 15:48:38,968 - __main__ - INFO - Starting polling...
+2025-08-15 15:48:39,069 - __main__ - INFO - Bot started successfully
+2025-08-15 15:48:39,069 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 15:48:39,122 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 15:49:00,913 - aiogram.event - INFO - Update id=379820509 is handled. Duration 0 ms by bot id=8254096819
+2025-08-15 15:49:02,910 - aiogram.event - INFO - Update id=379820510 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 15:49:02,910 - aiogram.event - ERROR - Cause exception while process update id=379820510 by bot id=8254096819
+NameError: name 'ReplyKeyboardBuilder' is not defined
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\admin_handlers.py", line 245, in admin_panel
+    builder = ReplyKeyboardBuilder()
+              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ReplyKeyboardBuilder' is not defined. Did you mean: 'InlineKeyboardBuilder'?
+2025-08-15 16:09:21,237 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-15 16:11:56,718 - services.error_handlers - INFO - Successfully resolved conflict
+2025-08-15 16:11:56,904 - __main__ - INFO - Bot started successfully
+2025-08-15 16:11:56,904 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 16:11:56,954 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 16:12:00,772 - aiogram.event - INFO - Update id=379820511 is handled. Duration 256 ms by bot id=8254096819
+2025-08-15 16:12:08,216 - aiogram.event - INFO - Update id=379820512 is handled. Duration 74 ms by bot id=8254096819
+2025-08-15 16:12:10,283 - aiogram.event - INFO - Update id=379820513 is handled. Duration 79 ms by bot id=8254096819
+2025-08-15 16:12:12,051 - aiogram.event - INFO - Update id=379820514 is handled. Duration 122 ms by bot id=8254096819
+2025-08-15 16:12:20,010 - aiogram.event - INFO - Update id=379820515 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:12:28,150 - aiogram.event - INFO - Update id=379820516 is handled. Duration 83 ms by bot id=8254096819
+2025-08-15 16:12:31,929 - aiogram.event - INFO - Update id=379820517 is not handled. Duration 4 ms by bot id=8254096819
+2025-08-15 16:12:31,929 - aiogram.event - ERROR - Cause exception while process update id=379820517 by bot id=8254096819
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\admin_handlers.py", line 127, in moderate_ads
+    ads = db.scalars(select(Ad).where(Ad.status == "pending").limit(5)).all()
+          ^^^^^^^^^^
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+2025-08-15 16:12:34,575 - aiogram.event - INFO - Update id=379820518 is handled. Duration 72 ms by bot id=8254096819
+2025-08-15 16:12:37,613 - aiogram.event - INFO - Update id=379820519 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:12:37,613 - aiogram.event - ERROR - Cause exception while process update id=379820519 by bot id=8254096819
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\admin_handlers.py", line 98, in process_broadcast
+    users = db.scalars(select(User)).all()
+            ^^^^^^^^^^
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+2025-08-15 16:12:41,488 - aiogram.event - INFO - Update id=379820520 is handled. Duration 111 ms by bot id=8254096819
+2025-08-15 16:12:43,699 - handlers.admin_handlers - ERROR - Stats error: 'sqlite3.Connection' object has no attribute 'scalar'
+2025-08-15 16:12:43,898 - aiogram.event - INFO - Update id=379820521 is handled. Duration 199 ms by bot id=8254096819
+2025-08-15 16:12:50,291 - aiogram.event - INFO - Update id=379820522 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:12:50,291 - aiogram.event - ERROR - Cause exception while process update id=379820522 by bot id=8254096819
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\admin_handlers.py", line 98, in process_broadcast
+    users = db.scalars(select(User)).all()
+            ^^^^^^^^^^
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+2025-08-15 16:13:38,508 - aiogram.event - INFO - Update id=379820523 is handled. Duration 70 ms by bot id=8254096819
+2025-08-15 16:13:44,558 - aiogram.event - INFO - Update id=379820524 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:13:44,558 - aiogram.event - ERROR - Cause exception while process update id=379820524 by bot id=8254096819
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\admin_handlers.py", line 98, in process_broadcast
+    users = db.scalars(select(User)).all()
+            ^^^^^^^^^^
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+2025-08-15 16:13:48,424 - aiogram.event - INFO - Update id=379820525 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:13:48,424 - aiogram.event - ERROR - Cause exception while process update id=379820525 by bot id=8254096819
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\admin_handlers.py", line 98, in process_broadcast
+    users = db.scalars(select(User)).all()
+            ^^^^^^^^^^
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+2025-08-15 16:13:49,438 - aiogram.event - INFO - Update id=379820526 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:13:49,438 - aiogram.event - ERROR - Cause exception while process update id=379820526 by bot id=8254096819
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\admin_handlers.py", line 98, in process_broadcast
+    users = db.scalars(select(User)).all()
+            ^^^^^^^^^^
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+2025-08-15 16:13:50,171 - aiogram.event - INFO - Update id=379820527 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:13:50,171 - aiogram.event - ERROR - Cause exception while process update id=379820527 by bot id=8254096819
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+Traceback (most recent call last):
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\middlewares\auth.py", line 12, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\fji\Desktop\telegram_ad_bot\handlers\admin_handlers.py", line 98, in process_broadcast
+    users = db.scalars(select(User)).all()
+            ^^^^^^^^^^
+AttributeError: 'sqlite3.Connection' object has no attribute 'scalars'
+2025-08-15 16:16:03,853 - services.error_handlers - INFO - Successfully resolved conflict
+2025-08-15 16:16:04,029 - __main__ - INFO - Bot started successfully
+2025-08-15 16:16:04,029 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 16:16:04,079 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 16:16:17,842 - aiogram.event - INFO - Update id=379820528 is handled. Duration 187 ms by bot id=8254096819
+2025-08-15 16:16:20,374 - aiogram.event - INFO - Update id=379820529 is handled. Duration 159 ms by bot id=8254096819
+2025-08-15 16:16:22,206 - aiogram.event - INFO - Update id=379820530 is handled. Duration 77 ms by bot id=8254096819
+2025-08-15 16:17:12,439 - aiogram.event - INFO - Update id=379820531 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:17:15,202 - aiogram.event - INFO - Update id=379820532 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:20:32,261 - aiogram.event - INFO - Update id=379820533 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:20:33,718 - aiogram.event - INFO - Update id=379820534 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 16:27:40,094 - aiogram.event - INFO - Update id=379820535 is handled. Duration 161 ms by bot id=8254096819
+2025-08-15 16:27:45,646 - aiogram.event - INFO - Update id=379820536 is handled. Duration 116 ms by bot id=8254096819
+2025-08-15 16:27:50,914 - aiogram.event - INFO - Update id=379820537 is handled. Duration 74 ms by bot id=8254096819
+2025-08-15 16:27:53,744 - aiogram.event - INFO - Update id=379820538 is handled. Duration 73 ms by bot id=8254096819
+2025-08-15 16:28:00,498 - aiogram.event - INFO - Update id=379820539 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-15 18:07:07,194 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-15 18:07:26,786 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-15 18:07:40,677 - services.error_handlers - INFO - Successfully resolved conflict
+2025-08-15 18:07:40,677 - __main__ - CRITICAL - Fatal error: 'Settings' object has no attribute 'REDIS_URL'
+Traceback (most recent call last):
+  File "C:\Users\fji\Desktop\telegram_ad_bot\bot.py", line 78, in main
+    storage = RedisStorage.from_url(settings.REDIS_URL)
+                                    ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\pydantic\main.py", line 991, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Settings' object has no attribute 'REDIS_URL'
+2025-08-15 18:14:40,844 - services.error_handlers - INFO - Successfully resolved conflict
+2025-08-15 18:14:40,845 - __main__ - INFO - Using Redis storage
+2025-08-15 18:14:41,101 - __main__ - INFO - Bot started successfully
+2025-08-15 18:14:41,101 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 18:14:41,151 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 18:14:49,756 - aiogram.event - INFO - Update id=379820540 is not handled. Duration 4082 ms by bot id=8254096819
+2025-08-15 18:14:57,979 - aiogram.event - INFO - Update id=379820541 is not handled. Duration 4086 ms by bot id=8254096819
+2025-08-15 18:18:48,439 - services.error_handlers - INFO - Successfully resolved conflict
+2025-08-15 18:18:48,441 - __main__ - INFO - Using Redis storage
+2025-08-15 18:18:48,578 - __main__ - INFO - Bot started successfully
+2025-08-15 18:18:48,578 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 18:18:48,627 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 18:18:59,220 - aiogram.event - INFO - Update id=379820542 is not handled. Duration 4088 ms by bot id=8254096819
+2025-08-15 18:19:04,321 - aiogram.event - INFO - Update id=379820543 is not handled. Duration 4095 ms by bot id=8254096819
+2025-08-15 18:19:08,434 - aiogram.event - INFO - Update id=379820544 is not handled. Duration 5404 ms by bot id=8254096819
+2025-08-15 18:21:55,818 - __main__ - INFO - Starting bot in simple mode...
+2025-08-15 18:21:56,132 - __main__ - INFO - Starting polling...
+2025-08-15 18:21:56,479 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 18:21:56,536 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 18:22:02,187 - aiogram.event - INFO - Update id=379820545 is handled. Duration 189 ms by bot id=8254096819
+2025-08-15 18:22:09,035 - aiogram.event - INFO - Update id=379820546 is handled. Duration 78 ms by bot id=8254096819
+2025-08-15 18:22:11,676 - aiogram.event - INFO - Update id=379820547 is handled. Duration 68 ms by bot id=8254096819
+2025-08-15 18:22:13,766 - aiogram.event - INFO - Update id=379820548 is handled. Duration 107 ms by bot id=8254096819
+2025-08-15 18:22:18,133 - aiogram.event - INFO - Update id=379820549 is handled. Duration 74 ms by bot id=8254096819
+2025-08-15 18:25:03,868 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-15 18:25:26,889 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 18:25:26,940 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 18:25:35,360 - aiogram.event - INFO - Update id=379820550 is handled. Duration 415 ms by bot id=8254096819
+2025-08-15 18:25:39,739 - aiogram.event - INFO - Update id=379820551 is handled. Duration 1391 ms by bot id=8254096819
+2025-08-15 18:31:04,113 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-15 18:31:24,918 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 18:31:24,968 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 18:31:30,125 - aiogram.event - INFO - Update id=379820552 is handled. Duration 292 ms by bot id=8254096819
+2025-08-15 18:31:35,918 - aiogram.event - INFO - Update id=379820553 is handled. Duration 618 ms by bot id=8254096819
+2025-08-15 18:31:39,416 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-15 18:31:39,497 - aiogram.event - INFO - Update id=379820554 is handled. Duration 156 ms by bot id=8254096819
+2025-08-15 18:31:41,287 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-15 18:31:41,451 - aiogram.event - INFO - Update id=379820555 is handled. Duration 307 ms by bot id=8254096819
+2025-08-15 18:32:05,511 - aiogram.event - INFO - Update id=379820556 is handled. Duration 187 ms by bot id=8254096819
+2025-08-15 18:32:56,843 - aiogram.event - INFO - Update id=379820557 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 18:32:58,802 - aiogram.event - INFO - Update id=379820558 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 18:33:00,327 - aiogram.event - INFO - Update id=379820559 is not handled. Duration 0 ms by bot id=8254096819
+2025-08-15 18:33:03,119 - aiogram.event - INFO - Update id=379820560 is handled. Duration 380 ms by bot id=8254096819
+2025-08-15 18:33:09,900 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-15 18:33:09,995 - aiogram.event - INFO - Update id=379820561 is handled. Duration 167 ms by bot id=8254096819
+2025-08-15 18:34:48,916 - aiogram.event - INFO - Update id=379820562 is handled. Duration 243 ms by bot id=8254096819
+2025-08-15 18:47:37,771 - aiogram.dispatcher - INFO - Start polling
+2025-08-15 18:47:37,826 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-15 18:48:01,357 - aiogram.event - INFO - Update id=379820563 is handled. Duration 0 ms by bot id=8254096819
+2025-08-15 18:48:06,341 - aiogram.event - INFO - Update id=379820564 is handled. Duration 0 ms by bot id=8254096819
+2025-08-15 18:48:07,232 - aiogram.event - INFO - Update id=379820565 is handled. Duration 0 ms by bot id=8254096819
+2025-08-15 18:48:07,983 - aiogram.event - INFO - Update id=379820566 is handled. Duration 0 ms by bot id=8254096819
+2025-08-15 18:48:08,759 - aiogram.event - INFO - Update id=379820567 is handled. Duration 0 ms by bot id=8254096819
+2025-08-15 18:48:09,383 - aiogram.event - INFO - Update id=379820568 is handled. Duration 0 ms by bot id=8254096819
+2025-08-16 17:00:04,000 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-16 17:00:04,002 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8254096819)
+2025-08-16 17:00:05,018 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-16 17:00:05,024 - aiogram.dispatcher - WARNING - Sleep for 1.272542 seconds and try again... (tryings = 1, bot id = 8254096819)
+2025-08-16 17:00:06,343 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-16 17:00:06,343 - aiogram.dispatcher - WARNING - Sleep for 1.786800 seconds and try again... (tryings = 2, bot id = 8254096819)
+2025-08-16 17:00:08,142 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-16 17:00:08,142 - aiogram.dispatcher - WARNING - Sleep for 2.242053 seconds and try again... (tryings = 3, bot id = 8254096819)
+2025-08-16 17:00:10,401 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-16 17:00:10,401 - aiogram.dispatcher - WARNING - Sleep for 2.898075 seconds and try again... (tryings = 4, bot id = 8254096819)
+2025-08-16 17:00:13,306 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-16 17:00:13,307 - aiogram.dispatcher - WARNING - Sleep for 3.736089 seconds and try again... (tryings = 5, bot id = 8254096819)
+2025-08-16 17:00:17,049 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-16 17:00:17,050 - aiogram.dispatcher - WARNING - Sleep for 4.793896 seconds and try again... (tryings = 6, bot id = 8254096819)
+2025-08-16 17:00:22,010 - aiogram.dispatcher - INFO - Connection established (tryings = 7, bot id = 8254096819)
+2025-08-16 17:00:22,011 - aiogram.event - INFO - Update id=379820569 is handled. Duration 0 ms by bot id=8254096819
+2025-08-16 21:39:50,828 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-16 21:40:05,628 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-16 21:40:18,415 - aiogram.dispatcher - INFO - Start polling
+2025-08-16 21:40:18,466 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-16 21:40:21,129 - aiogram.event - INFO - Update id=379820570 is handled. Duration 0 ms by bot id=8254096819
+2025-08-16 21:40:22,467 - aiogram.event - INFO - Update id=379820571 is handled. Duration 0 ms by bot id=8254096819
+2025-08-16 21:40:23,185 - aiogram.event - INFO - Update id=379820572 is handled. Duration 0 ms by bot id=8254096819
+2025-08-16 21:40:23,922 - aiogram.event - INFO - Update id=379820573 is handled. Duration 0 ms by bot id=8254096819
+2025-08-16 23:48:33,662 - __main__ - CRITICAL - Another instance is already running. Exiting.
+2025-08-16 23:48:48,535 - aiogram.dispatcher - INFO - Start polling
+2025-08-16 23:48:48,596 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-16 23:48:53,180 - aiogram.event - INFO - Update id=379820574 is handled. Duration 334 ms by bot id=8254096819
+2025-08-16 23:48:54,859 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-16 23:48:55,009 - aiogram.event - INFO - Update id=379820575 is handled. Duration 284 ms by bot id=8254096819
+2025-08-16 23:48:56,523 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-16 23:48:56,602 - aiogram.event - INFO - Update id=379820576 is handled. Duration 165 ms by bot id=8254096819
+2025-08-16 23:49:04,031 - aiogram.event - INFO - Update id=379820577 is handled. Duration 83 ms by bot id=8254096819
+2025-08-16 23:49:05,387 - aiogram.event - INFO - Update id=379820578 is handled. Duration 171 ms by bot id=8254096819
+2025-08-16 23:49:09,880 - aiogram.event - INFO - Update id=379820579 is handled. Duration 212 ms by bot id=8254096819
+2025-08-16 23:49:11,839 - aiogram.event - INFO - Update id=379820580 is not handled. Duration 1 ms by bot id=8254096819
+2025-08-16 23:53:25,547 - aiogram.event - INFO - Update id=379820581 is handled. Duration 124 ms by bot id=8254096819
+2025-08-17 00:11:21,876 - aiogram.dispatcher - INFO - Start polling
+2025-08-17 00:11:21,927 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-17 00:11:26,194 - aiogram.event - INFO - Update id=379820582 is handled. Duration 0 ms by bot id=8254096819
+2025-08-17 00:11:28,988 - aiogram.event - INFO - Update id=379820583 is handled. Duration 0 ms by bot id=8254096819
+2025-08-17 00:11:29,675 - aiogram.event - INFO - Update id=379820584 is handled. Duration 0 ms by bot id=8254096819
+2025-08-17 00:11:30,222 - aiogram.event - INFO - Update id=379820585 is handled. Duration 0 ms by bot id=8254096819
+2025-08-17 00:11:30,823 - aiogram.event - INFO - Update id=379820586 is handled. Duration 0 ms by bot id=8254096819
+2025-08-17 00:22:12,386 - aiogram.dispatcher - INFO - Start polling
+2025-08-17 00:22:12,436 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-17 00:22:17,076 - aiogram.event - INFO - Update id=379820589 is handled. Duration 299 ms by bot id=8254096819
+2025-08-17 00:22:18,297 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-17 00:22:18,432 - aiogram.event - INFO - Update id=379820590 is handled. Duration 297 ms by bot id=8254096819
+2025-08-17 00:55:44,759 - __main__ - CRITICAL - Unexpected error: cannot access local variable 'dp' where it is not associated with a value
+2025-08-17 00:55:48,600 - __main__ - CRITICAL - Unexpected error: cannot access local variable 'dp' where it is not associated with a value
+2025-08-17 01:08:35,499 - __main__ - CRITICAL - Unexpected error: cannot access local variable 'dp' where it is not associated with a value
+2025-08-17 01:08:53,993 - __main__ - CRITICAL - Unexpected error: cannot access local variable 'dp' where it is not associated with a value
+2025-08-17 01:08:58,796 - __main__ - CRITICAL - Unexpected error: cannot access local variable 'dp' where it is not associated with a value
+2025-08-17 01:14:09,242 - __main__ - CRITICAL - Fatal error: Router is already attached to <Router 'main_router'>
+Traceback (most recent call last):
+  File "C:\Users\fji\Desktop\telegram_ad_bot\bot.py", line 102, in main
+    dp.include_router(user_handlers.user_router)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 248, in include_router
+    router.parent_router = self
+    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 211, in parent_router
+    raise RuntimeError(f"Router is already attached to {self._parent_router!r}")
+RuntimeError: Router is already attached to <Router 'main_router'>
+2025-08-17 01:14:17,656 - __main__ - CRITICAL - Fatal error: Router is already attached to <Router 'main_router'>
+Traceback (most recent call last):
+  File "C:\Users\fji\Desktop\telegram_ad_bot\bot.py", line 102, in main
+    dp.include_router(user_handlers.user_router)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 248, in include_router
+    router.parent_router = self
+    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\fji\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiogram\dispatcher\router.py", line 211, in parent_router
+    raise RuntimeError(f"Router is already attached to {self._parent_router!r}")
+RuntimeError: Router is already attached to <Router 'main_router'>
+2025-08-17 01:20:32,038 - aiogram.dispatcher - INFO - Start polling
+2025-08-17 01:20:32,088 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-17 01:20:36,151 - aiogram.event - INFO - Update id=379820591 is handled. Duration 165 ms by bot id=8254096819
+2025-08-17 01:20:39,539 - aiogram.event - INFO - Update id=379820592 is handled. Duration 286 ms by bot id=8254096819
+2025-08-17 01:20:41,052 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-17 01:20:41,118 - aiogram.event - INFO - Update id=379820593 is handled. Duration 244 ms by bot id=8254096819
+2025-08-27 03:53:54,092 - aiogram.dispatcher - INFO - Start polling
+2025-08-27 03:53:54,147 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-27 03:54:31,049 - aiogram.event - INFO - Update id=379820595 is handled. Duration 178 ms by bot id=8254096819
+2025-08-27 03:54:35,079 - aiogram.event - INFO - Update id=379820596 is handled. Duration 301 ms by bot id=8254096819
+2025-08-27 03:54:38,294 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-27 03:54:38,364 - aiogram.event - INFO - Update id=379820597 is handled. Duration 210 ms by bot id=8254096819
+2025-08-27 04:15:02,282 - aiogram.dispatcher - INFO - Start polling
+2025-08-27 04:15:02,335 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-27 04:15:11,893 - aiogram.event - INFO - Update id=379820598 is handled. Duration 198 ms by bot id=8254096819
+2025-08-27 04:15:13,179 - aiogram.event - INFO - Update id=379820599 is handled. Duration 252 ms by bot id=8254096819
+2025-08-27 04:15:14,179 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-27 04:15:14,279 - aiogram.event - INFO - Update id=379820600 is handled. Duration 225 ms by bot id=8254096819
+2025-08-27 04:19:03,324 - aiogram.dispatcher - INFO - Start polling
+2025-08-27 04:19:03,374 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-27 04:19:08,510 - aiogram.event - INFO - Update id=379820601 is handled. Duration 182 ms by bot id=8254096819
+2025-08-27 04:19:09,634 - aiogram.event - INFO - Update id=379820602 is handled. Duration 247 ms by bot id=8254096819
+2025-08-27 04:19:10,516 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-27 04:19:10,598 - aiogram.event - INFO - Update id=379820603 is handled. Duration 211 ms by bot id=8254096819
+2025-08-27 04:20:59,384 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-08-27 04:20:59,935 - aiogram.dispatcher - INFO - Start polling
+2025-08-27 04:20:59,989 - aiogram.dispatcher - INFO - Run polling for bot @adexpch_bot id=8254096819 - 'ad_bot'
+2025-08-27 04:21:04,731 - aiogram.event - INFO - Update id=379820604 is handled. Duration 180 ms by bot id=8254096819
+2025-08-27 04:21:05,853 - aiogram.event - INFO - Update id=379820605 is handled. Duration 255 ms by bot id=8254096819
+2025-08-27 04:21:06,766 - __main__ - ERROR - Channel select error: 'amount'
+2025-08-27 04:21:06,840 - aiogram.event - INFO - Update id=379820606 is handled. Duration 204 ms by bot id=8254096819
+2025-08-27 08:37:41,908 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-27 08:37:41,908 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8254096819)
+2025-08-27 08:37:43,064 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-27 08:37:43,065 - aiogram.dispatcher - WARNING - Sleep for 1.524766 seconds and try again... (tryings = 1, bot id = 8254096819)
+2025-08-27 08:37:44,602 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-27 08:37:44,602 - aiogram.dispatcher - WARNING - Sleep for 1.942838 seconds and try again... (tryings = 2, bot id = 8254096819)
+2025-08-27 08:37:46,549 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorDNSError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+2025-08-27 08:37:46,549 - aiogram.dispatcher - WARNING - Sleep for 2.287656 seconds and try again... (tryings = 3, bot id = 8254096819)
+2025-08-27 08:37:59,067 - aiogram.dispatcher - INFO - Connection established (tryings = 4, bot id = 8254096819)
