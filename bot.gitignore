@@ -1,8 +1,9 @@
-.env
-*.log
-__pycache__/
-*.sqlite
-*.pyc
-.DS_Store
-/database.db
-/logs/
+echo "__pycache__/" > .gitignore
+echo "*.pyc" >> .gitignore
+echo "*.pyo" >> .gitignore
+echo ".env" >> .gitignore
+echo "*.log" >> .gitignore
+echo "*.db" >> .gitignore
+echo "*.lock" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo ".idea/" >> .gitignore
